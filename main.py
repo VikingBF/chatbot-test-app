@@ -20,7 +20,7 @@ conversation = ConversationChain(
 )
 
 # Initialize promt value
-st.title("Meet :robot_face: Marve, the depressed robot")
+st.title(":robot_face: Marvin, the depressed robot")
 
 if "messages" not in st.session_state:
     st.session_state["messages"] = [{"role": "ai", "content": "I'd give you advice, but you wouldn't listen. No one ever does"}]
